@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Избранное — Что-нибудь</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <div class="container nav">
+
+        <a class="logo" href="index.html">Что-нибудь</a>
+
+        <nav>
+            <a href="index.html">Рулетка</a>
+            <a href="#project">О проекте</a>
+            <a href="favorites.html">Избранное</a>
+        </nav>
+
+    </div>
+</header>
+
+
+<main>
+
+<section class="section container favorites-section">
+
+    <p class="label">Избранное</p>
+
+    <div class="section-title">
+
+        <h2>Сохранённые карточки</h2>
+
+        <button
+            id="clearFavorites"
+            class="small-button">
+
+            Очистить всё
+
+        </button>
+
+    </div>
+
+
+    <div id="favoritesGrid" class="grid"></div>
+
+
+    <p id="emptyFavorites" class="empty">
+        Пока здесь ничего нет.
+        <br><br>
+
+        <a href="index.html">
+            Вернуться к рулетке
+        </a>
+    </p>
+
+</section>
+
+</main>
+
+
+<footer id= "project">
+
+    <div class="container footer-content">
+
+        <div>
+            © 2026 «Что-нибудь»
+        </div>
+
+        <a href="#about">
+            О проекте
+        </a>
+
+    </div>
+
+
+    <div id="about" class="about-footer container">
+
+        <h2>О проекте</h2>
+
+        <p>
+            «Что-нибудь» — небольшой сайт, который помогает
+            случайно находить интересные факты, фильмы,
+            цитаты и места.
+        </p>
+
+
+        <div class="about-grid">
+
+            <article>
+                <h3>История</h3>
+
+                <p>
+                    Проект создан как учебный сайт
+                    по разработанной структуре.
+                </p>
+            </article>
+
+
+            <article>
+                <h3>Наша команда</h3>
+
+                <p>
+                    Автор и разработчик проекта — студент.
+                </p>
+            </article>
+
+
+            <article>
+                <h3>FAQ</h3>
+
+                <p>
+                    Рулетка случайно выбирает карточку
+                    из выбранных категорий.
+                </p>
+            </article>
+
+
+            <article>
+                <h3>Контакты</h3>
+
+                <p>
+                    Email: fuffyb@mail.ru
+                </p>
+            </article>
+
+        </div>
+
+    </div>
+
+</footer>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>

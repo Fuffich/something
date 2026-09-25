@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Что-нибудь</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <div class="container nav">
+
+        <a class="logo" href="index.html">Что-нибудь</a>
+
+        <nav>
+            <a href="index.html">Рулетка</a>
+            <a href="#project">О проекте</a>
+            <a href="favorites.html">Избранное</a>
+        </nav>
+
+    </div>
+</header>
+
+
+<main>
+
+<section id="home" class="hero container">
+
+    <p class="label">Случайный контент</p>
+
+    <h1>Что-нибудь</h1>
+
+    <p class="subtitle">
+        Нажми кнопку — и узнай что-нибудь новое.
+    </p>
+
+
+    <div id="categories" class="filters">
+
+        <label>
+            <input type="checkbox" value="fact" checked>
+            Факты
+        </label>
+
+        <label>
+            <input type="checkbox" value="movie" checked>
+            Фильмы
+        </label>
+
+        <label>
+            <input type="checkbox" value="quote" checked>
+            Цитаты
+        </label>
+
+        <label>
+            <input type="checkbox" value="place" checked>
+            Места
+        </label>
+
+    </div>
+
+
+    <button id="randomBtn" class="main-button">
+        Покажи что-нибудь
+    </button>
+
+
+    <div id="rouletteCard" class="card placeholder">
+
+        <div>
+
+            <span class="card-type">
+                Рулетка
+            </span>
+
+            <h2>
+                Здесь появится случайная карточка
+            </h2>
+
+            <p>
+                Выбери категории и нажми кнопку.
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <div id="cardActions" class="actions" hidden>
+
+        <button id="nextBtn">
+            Ещё
+        </button>
+
+        <button id="saveBtn">
+            ♡ В избранное
+        </button>
+
+    </div>
+
+
+    <p class="counter">
+        Показано карточек:
+        <span id="counter">0</span>
+    </p>
+
+</section>
+
+</main>
+
+
+<footer id="project">
+
+    <div class="container footer-content">
+
+        <div>
+            © 2026 «Что-нибудь»
+        </div>
+
+        <a href="#about">
+            О проекте
+        </a>
+
+    </div>
+
+
+    <div id="about" class="about-footer container">
+
+        <h2>О проекте</h2>
+
+        <p>
+            «Что-нибудь» — небольшой сайт, который помогает
+            случайно находить интересные факты, фильмы, цитаты
+            и места.
+        </p>
+
+
+        <div class="about-grid">
+
+            <article>
+                <h3>История</h3>
+
+                <p>
+                    Проект создан как учебный сайт
+                    по разработанной структуре.
+                </p>
+            </article>
+
+
+            <article>
+                <h3>Наша команда</h3>
+
+                <p>
+                    Автор и разработчик проекта — студент.
+                </p>
+            </article>
+
+
+            <article>
+                <h3>FAQ</h3>
+
+                <p>
+                    <b>Как работает рулетка?</b><br>
+                    Она случайно выбирает карточку
+                    из выбранных категорий.
+                </p>
+            </article>
+
+
+            <article>
+                <h3>Контакты</h3>
+
+                <p>
+                    Email: fuffyb@mail.ru
+                </p>
+            </article>
+
+        </div>
+
+    </div>
+
+</footer>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
